@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import './App.css';
 import ScrollContainer from "react-indiana-drag-scroll";
-import dragscroll from 'dragscroll'
+
 
 const numbers = new Array(506).fill(1).map((_, index) => index + 1);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <ScrollContainer className="container dragscroll" horizontal={true} vertical={true}>
+    <ScrollContainer className="container" horizontal={true} vertical={true}>
       <App />
     </ScrollContainer>
   </div>
