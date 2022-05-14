@@ -1,0 +1,23 @@
+.world-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  cursor: grab;
+  overflow: auto;
+}
+
+.world-box {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 0px;
+}
+
+.hidden-box {
+  visibility: hidden;
+}
+
+.container {
+  height: calc(100vh - 20px);
+  width: 100%;
+}
