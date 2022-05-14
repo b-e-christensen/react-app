@@ -14,7 +14,7 @@ function WorldMap() {
             world.push(<Box />)
         }
     }
-
+    // populates array
     worldMap()
 
     let unlockedBoxes = [35, 45, 54, 50, 55, 56, 65, 66]
